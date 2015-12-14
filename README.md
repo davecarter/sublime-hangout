@@ -2,7 +2,7 @@
 En esta sesión hablaremos de cómo mejorar nuestro flujo de trabajo con Sublime Text aprendiendo a usar sus potentes herramientas de búsqueda, selección, plugins etc.
 
 ### Slides
-Accede a las slides [aquí](http://davecarter.github.io/frontend-hangout/#/).
+Accede a las slides [aquí](http://davecarter.github.io/sublime-hangout/).
 
 ### Abrir Sublime
 - Icono
