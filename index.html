@@ -42,54 +42,222 @@
 
         <section>
           <h2>Sublime Text 3</h2>
-          <h4>Mejora tu flujo de trabajo</h4>
+          <h4>Improve your workflow</h4>
           <img src="img/sublime-logo.png" width="300" alt="">
           <p>
-            <small>por <a href="http://davecarter.me" target="_blank">David García</a> / <a href="http://twitter.com/d4vecarter" target="_blank">@d4vecarter</a></small>
+            <small>by <a href="http://davecarter.me" target="_blank">David García</a> / <a href="http://twitter.com/d4vecarter" target="_blank">@d4vecarter</a></small>
           </p>
         </section>
 
         <section>
-          <h3>¿Qué es Sublime?</h3>
+          <h3>What is Sublime?</h3>
           <img src="img/sublime-window.png" width="400" alt="">
           <p class="fragment">Code Editor</p>
-          <p class="fragment"><strong>no</strong> un IDE</p>
+          <p class="fragment"><strong>not</strong> an IDE</p>
         </section>
 
         <section>
-          <h3>Abrir Sublime</h3>
+          <h3>Opening Sublime</h3>
             <ul>
-              <li>Icono</li>
-              <li>Carpeta</li>
+              <li>Icon</li>
+              <li>Drag Folder</li>
               <li>.sublime-project</li>
               <li><a href="https://gist.github.com/davecarter/0a4fea4d6cbd08e4812f" target="_blank">Terminal</a></li>
             </ul>
         </section>
 
         <section>
-          <h3>Interfaz</h3>
+          <h3>Interface</h3>
           <ul>
-            <li>Nuevo doc vs Nuevo project</li>
-            <li>Mostrar/ocultar sidebar</li>
+            <li>Window</li>
             <li>Tabs</li>
             <li>Minimap</li>
+            <li>Sidebar</li>
             <li>Status bar</li>
-            <li>Indentación</li>
           </ul>
         </section>
 
         <section>
-          <h3>Selección/Edición</h3>
+          <section>
+            <img src="img/sublime-logo.png" width="200" alt="">
+            <h3>Sublime Text Selection/Edition</h3>
+            <span class="marker">Multiple Word/Line Selection/Edition</span>
+            <pre><code>
+  Cmd + d  -- Select word
+  Cmd + l  -- Select line
+            </code></pre>
+          </section>
+
+          <section>
+            <img src="img/sublime-logo.png" width="200" alt="">
+            <h3>Sublime Text Selection/Edition</h3>
+            <span class="marker">Text duplication & re-arrange line</span>
+            <pre><code>
+  Cmd + Shift + d  -- Duplicate line
+  Ctrl + Cmd + Up/Down -- Re arrange line order
+            </code></pre>
+          </section>
+
+          <section>
+            <img src="img/sublime-logo.png" width="200" alt="">
+            <h3>Sublime Text Selection/Edition</h3>
+            <span class="marker">Expand selection to Scope</span>
+            <pre><code>
+  Cmd + Shift + Space
+            </code></pre>
+          </section>
+
+          <section>
+            <img src="img/sublime-logo.png" width="200" alt="">
+            <h3>Sublime Text Selection/Edition</h3>
+            <span class="marker">Selection to indentation</span>
+            <pre><code>
+  Cmd + Shift + j
+            </code></pre>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <img src="img/sublime-logo.png" width="200" alt="">
+            <h3>Sublime Text Find/Replace</h3>
+            <span class="marker">Scope</span>
+            <pre><code>
+  Cmd + g  --  Quick Find a word / Next word
+  Cmd + Shift + g  --  Quick Find a Previous word
+            </code></pre>
+          </section>
+
+          <section>
+            <img src="img/sublime-logo.png" width="200" alt="">
+            <h3>Sublime Text Find/Replace</h3>
+            <span class="marker">Scope</span>
+            <pre><code>
+  Cmd + f  --  Find a word
+  Cmd + Shift + g  --  Quick Find a Previous word
+  Ctrl + Cmd + g  --  Find all words
+            </code></pre>
+          </section>
+        </section>
+
+
+        <section>
+          <h3>Preferences</h3>
+          <a href="https://gist.github.com/davecarter/35e96f053d51e139f601">Sublime Preferences Gist</a>
+        </section>
+
+        <section>
+          <section>
+            <img src="img/sublime-logo.png" width="200" alt="">
+            <h3>Sublime Native Tools</h3>
+            <span class="marker">Instant search</span>
+            <pre><code>
+  Cmd + p
+            </code></pre>
+          </section>
+         
+          <section>
+            <img src="img/sublime-logo.png" width="200" alt="">
+            <h3>Sublime Native Tools</h3>
+            <span class="marker">Set syntax</span>
+            <pre><code>
+  Cmd + Shift + p --- ssyn
+            </code></pre>
+          </section>
+
+          <section>
+            <img src="img/sublime-logo.png" width="200" alt="">
+            <h3>Sublime Native Tools</h3>
+            <span class="marker">Indentation</span>
+            <pre><code>
+  Cmd + Shift + p --- re
+            </code></pre>
+          </section>
+
+          <section>
+            <img src="img/sublime-logo.png" width="200" alt="">
+            <h3>Sublime Native Tools</h3>
+            <span class="marker">Convert Upper/Lower case</span>
+            <pre><code>
+  Cmd + Shift + p --- low
+            </code></pre>
+          </section>
+
+          <section>
+            <img src="img/sublime-logo.png" width="200" alt="">
+            <h3>Sublime Native Tools</h3>
+            <span class="marker">Value Bumping</span>
+            <pre><code>
+  Ctrl + Up/Down --- +/- 1 unit
+  Alt + Cmd + Up/Down --- +/- 1 unit
+  Alt + Up/Down --- +/- .1 unit
+            </code></pre>
+          </section>
+
+          <section>
+            <img src="img/sublime-logo.png" width="200" alt="">
+            <h3>Sublime Native Tools</h3>
+            <span class="marker">Go to line/column</span>
+            <pre><code>
+  Ctrl + g --- 250 // Goto line 250
+  Ctrl + g --- 250:10 // Goto line 250 Column 10
+            </code></pre>
+          </section>
+
+          <section>
+            <img src="img/sublime-logo.png" width="200" alt="">
+            <h3>Sublime Native Tools</h3>
+            <span class="marker">Multi cursor</span>
+            <pre><code>
+  Ctrl + Shift + Up/Down arrows
+  Cmd + Left Click
+            </code></pre>
+          </section>
+
+          <section>
+            <img src="img/sublime-logo.png" width="200" alt="">
+            <h3>Sublime Native Tools</h3>
+            <span class="marker">Split views</span>
+            <pre><code>
+  Columns: Alt + Cmd + 1 - 5
+  Rows: Alt + Cmd + Shift + 2 - 3
+            </code></pre>
+          </section>
+
+          <section>
+            <img src="img/sublime-logo.png" width="200" alt="">
+            <h3>Sublime Native Tools</h3>
+            <span class="marker">Tab switching</span>
+            <pre><code>
+  Crtl + Tab -- Next tab
+  Crtl + Shift + Tab -- Prev tab
+  Cmd + 1 to number of opened tabs
+            </code></pre>
+          </section>
+
+        </section>
+
+        <section>
+          <h3>Plugins</h3>
           <ul>
-            <li>Palabra</li>
-            <li>Scope</li>
-            <li>por Indentación</li>
-            <li>Múltiple selección/edición</li>
-            <li>Indentación</li>
+            <li style="font-size: 18px; line-height: 1.8">Emmet</li>
+            <li style="font-size: 18px; line-height: 1.8">JavaScript Next</li>
+            <li style="font-size: 18px; line-height: 1.8">SublimeLinter</li>
+            <li style="font-size: 18px; line-height: 1.8">SublimeLinter-contrib-eslint</li>
+            <li style="font-size: 18px; line-height: 1.8">SublimeLinter-contrib-scss</li>
+            <li style="font-size: 18px; line-height: 1.8">Color Highlighter</li>
+            <li style="font-size: 18px; line-height: 1.8">SideBarEnhancements</li>
           </ul>
         </section>
 
-        
+        <section>
+          <h3>Themes</h3>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </section>
 
         <section>
           <h2>¡Gracias!</h2>

@@ -1,0 +1,11 @@
+{ 
+  "scripts": {
+    "start": [
+      {
+        "Nested Object": {
+          "Yet another nested object"
+        }
+      }
+    ]
+  }
+}
