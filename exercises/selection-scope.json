@@ -1,3 +1,7 @@
+// Crtl + Shift + m     => Selection to brackets
+// Cmd + Shit + j       => Indented block
+// Cmd + Shift + Space  => Selection to scoped block code
+
 { 
   "scripts": {
     "start": [
